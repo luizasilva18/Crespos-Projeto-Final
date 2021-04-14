@@ -307,3 +307,83 @@ bottom: 95rem;
    top: 1rem;
    left: 3rem;
 }
+
+.lavando-img{
+    width: 550px;
+    position:relative;
+    left: 45rem;
+    bottom: 126rem;
+}
+.txt-img-6{
+    background-color:#9767A9;
+    height: 250px;
+    width: 410px;
+    position: relative;
+    left: 49rem;
+   bottom: 130rem;
+}
+
+.h3-img-6{
+    width: 68%;
+   color: white; 
+   font-family:Playfair Display; 
+   font-size: 25px;
+   position: relative;
+   top: 1rem;
+   left: 6rem;
+}
+
+.p-img-6{
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    width: 85%;
+    position: relative;
+   top: 1rem;
+   left: 3rem;
+}
+
+.grisalho-img{
+    width: 450px;
+position:relative;
+left: 16rem;
+bottom: 142rem;
+}
+
+.txt-img-7{
+    background-color:#9767A9;
+    height: 270px;
+    width: 410px;
+    position: relative;
+    left: 18rem;
+   bottom: 144rem;
+}
+
+.h3-img-7{
+    width: 60%;
+   color: white; 
+   font-family:Playfair Display; 
+   font-size: 25px;
+   position: relative;
+   top: 1rem;
+   left: 2rem;
+}
+
+.p-img-7{
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    width: 80%;
+    position: relative;
+   top: 1rem;
+   left: 3rem;
+}
+
+.mola{
+    width: 350px;
+    position: relative; 
+    left: 52rem;
+    bottom: 160rem;
+}
