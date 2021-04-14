@@ -67,7 +67,7 @@ color: #9767A9;
 }
 
 .div-homem{
-    background-image: url(/cabeludo@2x.png);
+    background-image: url(/img/cabeludo@2x.png);
     background-size: 87rem;
     background-repeat: no-repeat;
     width: 100%;
@@ -126,7 +126,7 @@ margin-bottom: 10rem;
 
 
 .espelho-img{
-width:500px;
+width:400px;
 position:relative;
 left: 6rem;
 bottom: 3rem;
@@ -157,6 +157,152 @@ bottom: 3rem;
     font-size: 15px;
     font-weight: 100;
     width: 60%;
+    position: relative;
+   top: 1rem;
+   left: 3rem;
+}
+
+.maju-img{
+ width: 400px;
+position:relative;
+left: 45rem;
+bottom: 40rem;
+
+}
+.txt-img-2{
+    background-color:#9767A9;
+    height: 340px;
+    width: 410px;
+    position: relative;
+    left: 46rem;
+   bottom: 45rem;
+}
+
+.h3-img-2{
+    width: 60%;
+   color: white; 
+   font-family:Playfair Display; 
+   font-size: 25px;
+   position: relative;
+   top: 1rem;
+   left: 6rem;
+}
+
+.p-img-2{
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    width: 80%;
+    position: relative;
+   top: 1rem;
+   left: 3rem;
+}
+
+.cabelo-man{
+    width: 550px;
+    position:relative;
+    bottom: 50rem;
+    left: 10rem;
+}
+
+.txt-img-3{
+    background-color:#9767A9;
+    height: 225px;
+    width: 410px;
+    position: relative;
+    left: 14rem;
+   bottom: 58rem;
+}
+
+.h3-img-3{
+    width: 60%;
+   color: white; 
+   font-family:Playfair Display; 
+   font-size: 25px;
+   position: relative;
+   top: 1rem;
+   left: 2rem;
+}
+
+.p-img-3{
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    width: 80%;
+    position: relative;
+   top: 1rem;
+   left: 3rem;
+}
+
+.rainha-img{
+width: 450px;
+position:relative;
+left: 45rem;
+bottom: 80rem;
+}
+.txt-img-4{
+    background-color:#9767A9;
+    height: 270px;
+    width: 410px;
+    position: relative;
+    left: 46rem;
+   bottom: 85rem;
+}
+
+.h3-img-4{
+    width: 60%;
+   color: white; 
+   font-family:Playfair Display; 
+   font-size: 25px;
+   position: relative;
+   top: 1rem;
+   left: 6rem;
+}
+
+.p-img-4{
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    width: 85%;
+    position: relative;
+   top: 1rem;
+   left: 3rem;
+}
+
+.maeefilha-img{
+    width: 450px;
+position:relative;
+left: 14rem;
+bottom: 95rem;
+}
+.txt-img-5{
+    background-color:#9767A9;
+    height: 300px;
+    width: 410px;
+    position: relative;
+    left: 16rem;
+   bottom: 100rem;
+}
+
+.h3-img-5{
+    width: 60%;
+   color: white; 
+   font-family:Playfair Display; 
+   font-size: 25px;
+   position: relative;
+   top: 1rem;
+   left: 2rem;
+}
+
+.p-img-5{
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    width: 80%;
     position: relative;
    top: 1rem;
    left: 3rem;
