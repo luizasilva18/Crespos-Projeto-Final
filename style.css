@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  body{
+      width: 100%;
+      height: 100%;
+  }
   header{
       display: flex;
      justify-content: space-around;
@@ -388,3 +392,39 @@ bottom: 142rem;
     left: 52rem;
     bottom: 160rem;
 }
+
+.container-galeria{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    bottom: 2250px;
+  }
+  
+  
+  .item-galeria{
+    width: 100%;  
+  }
+
+  .img-galeria{
+      width: 80%;
+  }
+      
+  
+  footer{
+      background-color: #9767A9; 
+      height: 50%;
+      width: 100%;
+      display: flex;
+      
+      
+  }
+
+  .parag{
+      width: 40%;
+  }
+
+  .buttons{
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+  }
