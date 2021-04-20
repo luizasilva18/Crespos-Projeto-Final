@@ -72,7 +72,7 @@ color: #9767A9;
 
 .div-homem{
     background-image: url(img/cabeludo@2x.png);
-    background-size: 87rem;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 88vh;
@@ -130,20 +130,23 @@ margin-bottom: 10rem;
 }
 
 
+
+.section-1{
+    display: flex;
+    align-items: flex-start;
+   flex-direction: column;
+
+}
+
 .espelho-img{
 width:400px;
-position:relative;
-left: 6rem;
-bottom: 3rem;
+
 }
 
 .txt-img-1{
     background-color:#9767A9;
     height: 380px;
     width: 450px;
-    position: relative;
-    left: 8rem;
-   bottom: 10rem;
 }
 
 .h3-img-1{
@@ -151,9 +154,6 @@ bottom: 3rem;
    color: white; 
    font-family:Playfair Display; 
    font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 3rem;
 }
 
 .p-img-1{
@@ -162,25 +162,24 @@ bottom: 3rem;
     font-size: 15px;
     font-weight: 100;
     width: 60%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
+    
 }
+
+.section-2{
+    display: flex;
+    align-items: flex-end;
+   flex-direction: column;
+  }
 
 .maju-img{
  width: 400px;
-position:relative;
-left: 45rem;
-bottom: 40rem;
 
 }
 .txt-img-2{
     background-color:#9767A9;
     height: 340px;
     width: 410px;
-    position: relative;
-    left: 46rem;
-   bottom: 45rem;
+  
 }
 
 .h3-img-2{
@@ -188,9 +187,7 @@ bottom: 40rem;
    color: white; 
    font-family:Playfair Display; 
    font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 6rem;
+  
 }
 
 .p-img-2{
@@ -199,25 +196,18 @@ bottom: 40rem;
     font-size: 15px;
     font-weight: 100;
     width: 80%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
+   
 }
+
 
 .cabelo-man{
     width: 550px;
-    position:relative;
-    bottom: 50rem;
-    left: 10rem;
 }
 
 .txt-img-3{
     background-color:#9767A9;
     height: 225px;
     width: 410px;
-    position: relative;
-    left: 14rem;
-   bottom: 58rem;
 }
 
 .h3-img-3{
@@ -225,9 +215,6 @@ bottom: 40rem;
    color: white; 
    font-family:Playfair Display; 
    font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 2rem;
 }
 
 .p-img-3{
@@ -236,34 +223,29 @@ bottom: 40rem;
     font-size: 15px;
     font-weight: 100;
     width: 80%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
 }
+
+.section-4{
+    display: flex;
+    align-items: flex-end;
+   flex-direction: column;
+  }
 
 .rainha-img{
 width: 450px;
-position:relative;
-left: 45rem;
-bottom: 80rem;
 }
+
 .txt-img-4{
     background-color:#9767A9;
     height: 270px;
-    width: 410px;
-    position: relative;
-    left: 46rem;
-   bottom: 85rem;
+    width: 410px;   
 }
 
 .h3-img-4{
     width: 60%;
    color: white; 
    font-family:Playfair Display; 
-   font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 6rem;
+   font-size: 25px; 
 }
 
 .p-img-4{
@@ -272,34 +254,26 @@ bottom: 80rem;
     font-size: 15px;
     font-weight: 100;
     width: 85%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
 }
 
 .maeefilha-img{
     width: 450px;
-position:relative;
-left: 14rem;
-bottom: 95rem;
 }
+
+
 .txt-img-5{
     background-color:#9767A9;
     height: 300px;
     width: 410px;
-    position: relative;
-    left: 16rem;
-   bottom: 100rem;
 }
+    
 
 .h3-img-5{
     width: 60%;
    color: white; 
    font-family:Playfair Display; 
    font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 2rem;
+  
 }
 
 .p-img-5{
@@ -308,24 +282,24 @@ bottom: 95rem;
     font-size: 15px;
     font-weight: 100;
     width: 80%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
+    
 }
+
+.section-6{
+    display: flex;
+    align-items: flex-end;
+   flex-direction: column;
+  }
 
 .lavando-img{
     width: 550px;
-    position:relative;
-    left: 45rem;
-    bottom: 126rem;
+   
 }
 .txt-img-6{
     background-color:#9767A9;
     height: 250px;
     width: 410px;
-    position: relative;
-    left: 49rem;
-   bottom: 130rem;
+  
 }
 
 .h3-img-6{
@@ -333,9 +307,7 @@ bottom: 95rem;
    color: white; 
    font-family:Playfair Display; 
    font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 6rem;
+   
 }
 
 .p-img-6{
@@ -344,25 +316,19 @@ bottom: 95rem;
     font-size: 15px;
     font-weight: 100;
     width: 85%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
+   
 }
 
 .grisalho-img{
     width: 450px;
-position:relative;
-left: 16rem;
-bottom: 142rem;
+
 }
 
 .txt-img-7{
     background-color:#9767A9;
     height: 270px;
     width: 410px;
-    position: relative;
-    left: 18rem;
-   bottom: 144rem;
+  
 }
 
 .h3-img-7{
@@ -370,9 +336,7 @@ bottom: 142rem;
    color: white; 
    font-family:Playfair Display; 
    font-size: 25px;
-   position: relative;
-   top: 1rem;
-   left: 2rem;
+   
 }
 
 .p-img-7{
@@ -381,23 +345,20 @@ bottom: 142rem;
     font-size: 15px;
     font-weight: 100;
     width: 80%;
-    position: relative;
-   top: 1rem;
-   left: 3rem;
+   
 }
 
+.section-mola{
+
+}
 .mola{
-    width: 350px;
-    position: relative; 
-    left: 52rem;
-    bottom: 160rem;
+    width: 30%;
 }
 
 .container-galeria{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    position: relative;
-    bottom: 2250px;
+
   }
   
   
