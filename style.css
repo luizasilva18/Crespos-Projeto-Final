@@ -134,19 +134,22 @@ margin-bottom: 10rem;
 .section-1{
     display: flex;
     align-items: flex-start;
-   flex-direction: column;
+    flex-direction: column;
+margin-top: -8%;
 
 }
 
 .espelho-img{
-width:400px;
-
+width:530px;
+margin-left: 20%;
 }
 
 .txt-img-1{
     background-color:#9767A9;
     height: 380px;
-    width: 450px;
+    width: 370px;
+    margin-left: 14%;
+    margin-top: -8%;
 }
 
 .h3-img-1{
@@ -169,17 +172,21 @@ width:400px;
     display: flex;
     align-items: flex-end;
    flex-direction: column;
+   margin-right: 15%;
+   margin-top: -28%;
   }
 
 .maju-img{
- width: 400px;
-
+ width: 500px;
+ 
 }
+
 .txt-img-2{
     background-color:#9767A9;
     height: 340px;
     width: 410px;
-  
+    margin-right: 3%;
+    margin-top: -10%;
 }
 
 .h3-img-2{
@@ -199,15 +206,27 @@ width:400px;
    
 }
 
+.section-3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -18%;
+    margin-left: 10%;
+}
+
 
 .cabelo-man{
-    width: 550px;
+    width: 500px;
+
 }
 
 .txt-img-3{
     background-color:#9767A9;
     height: 225px;
     width: 410px;
+    margin-left: 4%;
+    margin-top: -8%;
+ 
 }
 
 .h3-img-3{
@@ -229,16 +248,20 @@ width:400px;
     display: flex;
     align-items: flex-end;
    flex-direction: column;
+   margin-right: 16%;
+   margin-top: -20%;
   }
 
 .rainha-img{
-width: 450px;
+width: 480px;
 }
 
 .txt-img-4{
     background-color:#9767A9;
     height: 270px;
-    width: 410px;   
+    width: 410px;  
+    margin-right: 2%;
+    margin-top: -2%;
 }
 
 .h3-img-4{
@@ -256,15 +279,28 @@ width: 450px;
     width: 85%;
 }
 
-.maeefilha-img{
-    width: 450px;
+.section-5{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top: -18%;
 }
+
+
+.maeefilha-img{
+    width: 490px;
+}
+
 
 
 .txt-img-5{
     background-color:#9767A9;
     height: 300px;
     width: 410px;
+    margin-left: 4%;
+    margin-top: -10%;
+  
 }
     
 
@@ -289,6 +325,8 @@ width: 450px;
     display: flex;
     align-items: flex-end;
    flex-direction: column;
+   margin-right: 10%;
+   margin-top: -23%;
   }
 
 .lavando-img{
@@ -299,7 +337,8 @@ width: 450px;
     background-color:#9767A9;
     height: 250px;
     width: 410px;
-  
+    margin-right: 6%;
+    margin-top: -5%;
 }
 
 .h3-img-6{
@@ -319,16 +358,25 @@ width: 450px;
    
 }
 
-.grisalho-img{
-    width: 450px;
+.section-7{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top: -14%;
+}
 
+.grisalho-img{
+    width: 490px;
+  
 }
 
 .txt-img-7{
     background-color:#9767A9;
     height: 270px;
     width: 410px;
-  
+    margin-left: 4%;
+    margin-top: -10%;
 }
 
 .h3-img-7{
@@ -348,44 +396,83 @@ width: 450px;
    
 }
 
-.section-mola{
 
-}
+
 .mola{
     width: 30%;
 }
 
-.container-galeria{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
 
-  }
-  
+.container-galeria{
+    display: flex;
+}
   
   .item-galeria{
-    width: 100%;  
+    width: 90%;  
   }
 
   .img-galeria{
-      width: 80%;
+      width: 40%;
   }
       
   
   footer{
       background-color: #9767A9; 
-      height: 50%;
+      height: 0%;
       width: 100%;
-      display: flex;
+      display: flex;    
+
       
       
   }
 
   .parag{
       width: 40%;
+      display: flex;
+      justify-content: flex-start;
+      color: #FFFFFF;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      margin-left: 1rem;
+      margin-top: 0.5rem;
   }
 
   .buttons{
-      width: 50%;
-      display: flex;
-      justify-content: flex-end;
+width: 25%;
+display: flex;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 100;
+ color: #FFFFFF;
+ margin-top:0.5rem;
+ margin-left: 25%;
+ font-size: 14px;
   }
+
+ .button-1{
+     display: flex;
+ }
+
+ .button-2{
+     display: flex;
+ }
+ .button-3{
+     display: flex;
+ }
+  .img-button{
+      width: 30%;
+  }
+
+
+  .button-1:hover{
+    cursor: pointer;
+    background-color:#AC95BB;
+}
+.button-2:hover{
+    cursor: pointer;
+    background-color:#AC95BB;
+}
+
+.button-3:hover{
+    cursor: pointer;
+    background-color:#AC95BB;
+}
