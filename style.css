@@ -4,10 +4,10 @@
     box-sizing: border-box;
   }
 
-  body{
-      width: 100%;
-      height: 100%;
-  }
+  html body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
   header{
       display: flex;
      justify-content: space-around;
@@ -396,34 +396,89 @@ width: 480px;
    
 }
 
-
-
 .mola{
     width: 30%;
+    position: relative;
+    
 }
 
+.section-mola{
+    position: relative;
+    left: 56%;
+}
 
 .container-galeria{
+    width: 100%;
     display: flex;
 }
-  
-  .item-galeria{
-    width: 90%;  
-  }
 
-  .img-galeria{
-      width: 40%;
-  }
-      
+.img-galeria{
+width: 69%;
+}
+
+.itens-1{
+display: flex;
+flex-direction: column;
+width: 59%;
+margin-left: 5%;
+}
+
+.itens-2{
+ display: flex;
+flex-direction: column;
+width: 39%;
+margin-left: -8.5%;
+}
+
+.itens-3{
+    margin-left: -5.5%;
+}
+
+.itens-4{
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.itens-5{
+    margin-left: -9%;
+}
+
+
+.img-galeria-1{
+    width: 70%;
+    margin-bottom: 3%;
+}
   
+.img-galeria-3{
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.img-galeria-4{
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.img-galeria-5{
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.img-galeria-7{
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.img-galeria-8{
+    width: 70%;
+    margin-bottom: 2%;
+}
+
   footer{
       background-color: #9767A9; 
       height: 0%;
       width: 100%;
-      display: flex;    
-
-      
-      
+      display: flex;       
   }
 
   .parag{
