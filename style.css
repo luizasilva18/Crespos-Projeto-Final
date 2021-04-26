@@ -481,18 +481,11 @@ font-size: 40px;
     margin-left: 5%;
 }
 
-.mola{
-    width: 97%;
-}
-
-
 .setamola{
-    width: 30%;
-position: absolute;
-left: 62%;
-top: 550%;
-
-
+width: 10%;
+position: relative;
+left: 57%;
+bottom: 35vh;
 }
 
 
