@@ -12,12 +12,25 @@
       display: flex;
      justify-content: space-around;
   }
+  @media (max-width:1024px){
+    header{ 
+    margin-left: 3%;  
+    }
+}
+
 
   .logo-header{
      width: 85px;
      margin-left: 3rem;
      margin-top: 0.5rem;
   }
+  @media (max-width:1024px){
+    .logo-header{ 
+        width: 70px;
+     
+    }
+}
+
 
 
 .list {
@@ -42,6 +55,13 @@ li:hover{
 .divbuscar{
     margin-top: 1rem; 
 }
+@media (max-width:1178px){
+    .divbuscar{ 
+        position: relative;
+      bottom: 20px;
+      right:20px ;
+    }
+    }
 
 .txtbusca{
 border: 2px solid #9767A9;
@@ -56,6 +76,16 @@ height: 30px;
     top: 0.3rem;
     width: 17px;
 }
+
+
+@media (max-width:1178px){
+.btnbusca{ 
+    position: relative;
+    left: 1.2rem;
+    top: 27px;
+}
+}
+
 .divbuscar-p{
     position: relative;
     left: 3.3rem;
@@ -77,6 +107,13 @@ height: 30px;
     margin-right: 5rem;
 }
 
+@media (max-width:1190px){
+    .redsociais{ 
+    display: flex;
+    height: 3%;
+    margin-top: 1.1rem;
+    }
+}
 .div-homem{
     background-image: url(img/cabeludo@2x.png);
     background-size: cover;
@@ -126,6 +163,16 @@ font: normal normal 900 Playfair Display;
 font-size: 53px;
 margin-bottom: 10rem;
 }
+@media (max-width:1331px){
+    .h2-purple{ 
+        margin-top: 3rem;
+    }
+    }
+    @media (max-width:949px){
+        .h2-purple{ 
+            margin-top: 5rem;
+        }
+        }
 
 
 .p-purple{
@@ -136,7 +183,12 @@ margin-bottom: 10rem;
     font-weight: 100;
     margin-top: -2%;
 }
-
+@media (max-width:1331px){
+    .p-purple{ 
+        width: 43%;
+        font-size: 17px;
+    }
+    }
 
 
 .section-1{
@@ -515,7 +567,7 @@ margin-left: -8.5%;
 
   footer{
       background-color: #9767A9; 
-      height: 8vh;
+      height: 12vh;
       width: 100%;
       display: flex;       
   }
