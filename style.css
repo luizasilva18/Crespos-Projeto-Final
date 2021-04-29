@@ -265,21 +265,22 @@ margin-bottom: 10rem;
         margin-top: 3rem;
     }
     }
-    @media (max-width:949px){
+
+@media (max-width:949px){
         .h2-purple{ 
             margin-top: 5rem;
         }
         }
 
-        @media (max-width:400px){
-            .h2-purple{ 
-                width: 65%;
-                font-size: 20px;
-                position: relative;
-                top: -18%;
-                margin-left: 12%;
-         }
-         }
+@media (max-width:400px){
+    .h2-purple{ 
+     width: 65%;
+font-size: 20px;
+position: relative;
+top: -18%;
+margin-left: 12%;
+}
+}
 
 .p-purple{
     width: 35.8%;
